@@ -4,7 +4,7 @@ const nextConfig = {
   redirects: () => [
     {
       source: '/talk',
-      destination: 'https://discord.gg/PFnafbxd5u',
+      destination: 'https://discord.com/users/850299286595698718',
       permanent: true
     }
   ]
