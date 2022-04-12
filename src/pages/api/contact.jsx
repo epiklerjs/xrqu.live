@@ -10,7 +10,7 @@ export default async (req, res) => {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          username: 'clqu.live | Contact Form',
+          username: 'xrqu.live | Contact Form',
           attachments: [],
           embeds: [
             {
