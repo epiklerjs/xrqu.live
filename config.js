@@ -1,13 +1,13 @@
 module.exports = {
-    base: 'https://clqu.live',
+    base: 'https://xrqu.live',
     meta: {
-        title: 'clqu | Self-taught Web Developer',
-        url: 'https://www.clqu.live',
+        title: 'xrqu | Self-taught Web Developer',
+        url: 'https://www.xrqu.live',
         description: 'mhmm, what?',
         themeColor: '#4F3DFE',
-        image: 'https://www.google.com/favicon.ico'
+        image: 'https://awardbot.me/img/favicon.png'
     },
-    titleSuffix: 'clqu.live',
+    titleSuffix: 'xrqu.live',
     titles: {
         '/': 'Home',
         '/projects': 'Projects',
