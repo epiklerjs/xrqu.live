@@ -116,7 +116,7 @@ export default function Projects() {
                   <p className="text-xl">Twitter</p>
                   <i className="fab fa-twitter text-2xl" />
                 </a>
-                <a href={'https://instagram.com/xrqu.live} target="_blank" className="flex justify-between cursor-pointer hover:bg-zinc-300/50 transition-all duration-200 items-center bg-zinc-100 px-4 py-2 rounded-xl">
+                <a href={'https://instagram.com/xrqu.live'} target="_blank" className="flex justify-between cursor-pointer hover:bg-zinc-300/50 transition-all duration-200 items-center bg-zinc-100 px-4 py-2 rounded-xl">
                   <p className="text-xl">Instagram</p>
                   <i className="fab fa-instagram text-2xl" />
                 </a>
