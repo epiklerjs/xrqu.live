@@ -21,7 +21,7 @@ export default function Home({ better }) {
 
   useEffect(() => {
     (async() => {
-      let _user = await fetch('https://linkcord.js.org/api/v3/user/714451348212678658').then(r => r.json());
+      let _user = await fetch('https://linkcord.js.org/api/v3/user/850299286595698718').then(r => r.json());
       setUser(_user?.data || {});
     })();
   }, [router]);
@@ -63,7 +63,7 @@ export default function Home({ better }) {
     <>
       <div className="relative px-6 py-24 lg:py-8 lg:px-36 lg:py-24 lg:pb-96 flex flex-col items-center justify-center">
         <h1 className="font-semibold text-4xl break-words max-w-2xl text-center">I am 
-          <span className="text-cIndigo"> clqu</span>. 
+          <span className="text-cIndigo"> xrqu</span>. 
         I will always
             <span className="text-cIndigo"> {better} </span>
          better so that it guides the industry.
@@ -72,7 +72,7 @@ export default function Home({ better }) {
           {user?.username && (
             <div className="w-full flex justify-center items-center space-x-4">
               <img style={{ zIndex: 2 }} draggable={false} className={`transition-all ${slideAvatar ? 'translate-x-0' : 'translate-x-72'} duration-500 rounded-full flex-shrink-0`} width="172" height="72" src={`https://cdn.discordapp.com/avatars/${user?.id}/${user?.avatar}?size=4096`} />
-              <p className={`${slideAvatar ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-72'} transition-all duration-500 break-words max-w-xl text-xl font-semibold`}>Hi, I am clqu. I am a 2nd year high school student and I have been spending time with codes for about 1-2 years. I really dont know anything more about me. Thanks for reading :)</p>
+              <p className={`${slideAvatar ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-72'} transition-all duration-500 break-words max-w-xl text-xl font-semibold`}>Hello everyone, I'm xrqu. I am a first year high school student and I live in Turkey. I build Discord bots and websites. I'm a beginner, but I'm trying to add something more and more. Thank you for reading :) </p>
             </div>
           )}
         </div>
