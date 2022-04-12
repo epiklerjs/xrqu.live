@@ -28,7 +28,7 @@ export default function Header() {
             <div className="lg:grid lg:grid-cols-12 flex justify-between items-center w-full">
                 <div className="col-span-3 w-full">
                     <Link href="/">
-                        <p className="cursor-pointer font-semibold text-2xl">clqu<span className="text-cIndigo">.</span></p>
+                        <p className="cursor-pointer font-semibold text-2xl">xrqu<span className="text-cIndigo">.</span></p>
                     </Link>
                 </div>
                 <div className="hidden col-span-6 gap-x-4 w-full lg:flex justify-center">
