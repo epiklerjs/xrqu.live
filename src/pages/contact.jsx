@@ -9,7 +9,7 @@ export default function Projects() {
           default: 'fal fa-user',
           active: 'fa fa-user'
         },
-        placeholder: 'clqu',
+        placeholder: 'xrqu',
         type: 'input'
       },
       {
@@ -104,19 +104,19 @@ export default function Projects() {
           <div>
             <div className="space-y-4 p-4">
                 <p className="text-xl font-semibold">Contact with...</p>
-                <a href={'mailto:me@clqu.live'} className="flex justify-between cursor-pointer hover:bg-zinc-300/50 transition-all duration-200 items-center bg-zinc-100 px-4 py-2 rounded-xl">
+                <a href={'mailto:me@xrqu-live.tk'} className="flex justify-between cursor-pointer hover:bg-zinc-300/50 transition-all duration-200 items-center bg-zinc-100 px-4 py-2 rounded-xl">
                   <p className="text-xl">Email</p>
                   <i className="fa fa-envelope text-2xl" />
                 </a>
-                <a href={'https://discord.gg/PFnafbxd5u'} target="_blank" className="flex justify-between cursor-pointer hover:bg-zinc-300/50 transition-all duration-200 items-center bg-zinc-100 px-4 py-2 rounded-xl">
+                <a href={'https://discord.com/users/850299286595698718'} target="_blank" className="flex justify-between cursor-pointer hover:bg-zinc-300/50 transition-all duration-200 items-center bg-zinc-100 px-4 py-2 rounded-xl">
                   <p className="text-xl">Discord</p>
                   <i className="fab fa-discord text-2xl" />
                 </a>
-                <a href={'https://twitter.com/clquu_'} target="_blank" className="flex justify-between cursor-pointer hover:bg-zinc-300/50 transition-all duration-200 items-center bg-zinc-100 px-4 py-2 rounded-xl">
+                <a href={'https://twitter.com/xrqulivee'} target="_blank" className="flex justify-between cursor-pointer hover:bg-zinc-300/50 transition-all duration-200 items-center bg-zinc-100 px-4 py-2 rounded-xl">
                   <p className="text-xl">Twitter</p>
                   <i className="fab fa-twitter text-2xl" />
                 </a>
-                <a href={'https://instagram.com/this.clqu'} target="_blank" className="flex justify-between cursor-pointer hover:bg-zinc-300/50 transition-all duration-200 items-center bg-zinc-100 px-4 py-2 rounded-xl">
+                <a href={'https://instagram.com/xrqu.live} target="_blank" className="flex justify-between cursor-pointer hover:bg-zinc-300/50 transition-all duration-200 items-center bg-zinc-100 px-4 py-2 rounded-xl">
                   <p className="text-xl">Instagram</p>
                   <i className="fab fa-instagram text-2xl" />
                 </a>
